@@ -1,0 +1,126 @@
+:root {
+	--primary-light: #fefefe;
+	--secondary-light: #e5e7eb;
+	/* --primary-dark: #1f2937; */
+}
+html,
+body {
+	background-color: #81d8d0 !important;
+}
+.container {
+	min-height: 100vh;
+	padding: 0 !important;
+}
+.header__title {
+	color: var(--primary-light);
+	font-style: italic;
+	font-weight: bolder;
+	text-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
+}
+.gameContainer {
+	height: vw;
+	width: 41vw;
+	background-color: var(--primary-light);
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
+}
+.game__box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 13vw !important;
+	width: 13vw !important;
+	font-size: 300%;
+}
+.game__box:hover{
+	border-radius: 0.5rem;
+	background-color: var(--secondary-light);
+}
+.game__box > p {
+	margin-bottom: 0.5rem;
+}
+.colored__column {
+	width: 1vw !important;
+	background-color: black !important;
+}
+.colored__row {
+	height: 1vw !important;
+	background-color: black !important;
+}
+.footerContainer {
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	color: var(--primary-light);
+	text-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
+}
+.footer__link {
+	color: var(--primary-light);
+}
+@media screen and (max-width: 600px) {
+	.gameContainer {
+		height: 79vw;
+		width: 79vw;
+		background-color: var(--primary-light);
+	}
+	.game__box {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 25vw !important;
+		width: 25vw !important;
+	}
+	.colored__column {
+		width: 2vw !important;
+		background-color: black !important;
+	}
+	.colored__row {
+		height: 2vw !important;
+		background-color: black !important;
+	}
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+	.gameContainer {
+		height: 79vw;
+		width: 79vw;
+		background-color: var(--primary-light);
+	}
+	.game__box {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 25vw !important;
+		width: 25vw !important;
+		font-size: 300%;
+	}
+	.colored__column {
+		width: 2vw !important;
+		background-color: black !important;
+	}
+	.colored__row {
+		height: 2vw !important;
+		background-color: black !important;
+	}
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+	.gameContainer {
+		height: 64vw;
+		width: 64vw;
+		background-color: var(--primary-light);
+	}
+	.game__box {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 20vw !important;
+		width: 20vw !important;
+		font-size: 300%;
+	}
+	.colored__column {
+		width: 2vw !important;
+		background-color: black !important;
+	}
+	.colored__row {
+		height: 2vw !important;
+		background-color: black !important;
+	}
+}
