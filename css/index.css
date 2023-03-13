@@ -17,9 +17,14 @@ body {
 	font-weight: bolder;
 	text-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
 }
+.messageContainer{
+	width: 30%;
+	background-color: var(--primary-light);
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
+}
 .gameContainer {
-	height: vw;
-	width: 41vw;
+	height: 620px;
+	width: 620px;
 	background-color: var(--primary-light);
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
 }
@@ -27,11 +32,11 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 13vw !important;
-	width: 13vw !important;
+	height: 200px;
+	width: 200px;
 	font-size: 300%;
 }
-.game__box:hover{
+.game__box:hover {
 	border-radius: 0.5rem;
 	background-color: var(--secondary-light);
 }
@@ -39,12 +44,15 @@ body {
 	margin-bottom: 0.5rem;
 }
 .colored__column {
-	width: 1vw !important;
+	width: 10px;
 	background-color: black !important;
 }
 .colored__row {
-	height: 1vw !important;
+	height: 10px;
 	background-color: black !important;
+}
+.reset__button{
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
 }
 .footerContainer {
 	width: 100%;
@@ -58,69 +66,57 @@ body {
 }
 @media screen and (max-width: 600px) {
 	.gameContainer {
-		height: 79vw;
-		width: 79vw;
-		background-color: var(--primary-light);
+		height: 310px;
+		width: 310px;
 	}
 	.game__box {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 25vw !important;
-		width: 25vw !important;
+		height: 100px;
+		width: 100px;
 	}
 	.colored__column {
-		width: 2vw !important;
+		width: 5px;
 		background-color: black !important;
 	}
 	.colored__row {
-		height: 2vw !important;
+		height: 5px;
 		background-color: black !important;
 	}
 }
 @media screen and (min-width: 600px) and (max-width: 900px) {
 	.gameContainer {
-		height: 79vw;
-		width: 79vw;
-		background-color: var(--primary-light);
+		height: 530px;
+		width: 530px;
 	}
 	.game__box {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 25vw !important;
-		width: 25vw !important;
+		height: 170px;
+		width: 170px;
 		font-size: 300%;
 	}
 	.colored__column {
-		width: 2vw !important;
+		width: 10px;
 		background-color: black !important;
 	}
 	.colored__row {
-		height: 2vw !important;
+		height: 10px;
 		background-color: black !important;
 	}
 }
 @media screen and (min-width: 900px) and (max-width: 1200px) {
 	.gameContainer {
-		height: 64vw;
-		width: 64vw;
-		background-color: var(--primary-light);
+		height: 620px;
+		width: 620px;
 	}
 	.game__box {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 20vw !important;
-		width: 20vw !important;
+		height: 200px;
+		width: 200px;
 		font-size: 300%;
 	}
 	.colored__column {
-		width: 2vw !important;
+		width: 10px;
 		background-color: black !important;
 	}
 	.colored__row {
-		height: 2vw !important;
+		height: 10px;
 		background-color: black !important;
 	}
 }
