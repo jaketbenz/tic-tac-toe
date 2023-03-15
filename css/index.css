@@ -18,7 +18,7 @@ body {
 	text-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
 }
 .messageContainer{
-	width: 30%;
+	width: 40%;
 	background-color: var(--primary-light);
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
 }
