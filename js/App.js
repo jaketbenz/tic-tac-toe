@@ -27,6 +27,7 @@ const gameBoard = (() => {
 		for (let i = 0; i < board.length; i++) {
 			board[i] = "";
 		}
+		messageController.setMessage("X goes first");
 	};
 	return { setBoard, getBoard, resetBoard };
 })();
